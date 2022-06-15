@@ -1,0 +1,37 @@
+.link {
+    cursor: pointer;
+    color: dodgerblue;
+    font-size: 1rem;
+}
+.auth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+    align-items: center;
+    margin: 50px auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+input {
+    padding: 6px 10px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid black;
+}
+.btn {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #397bba;
+    color: white;
+    border-radius: 6px;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #86b8e6;
+}
